@@ -1,0 +1,15 @@
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ament_index/resource_index/package_run_dependencies/ags_env
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ament_index/resource_index/parent_prefix_path/ags_env
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/ament_prefix_path.sh
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/ament_prefix_path.dsv
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/path.sh
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/path.dsv
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.bash
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.sh
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.zsh
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.dsv
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/package.dsv
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ament_index/resource_index/packages/ags_env
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/cmake/ags_envConfig.cmake
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/cmake/ags_envConfig-version.cmake
+/home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/package.xml

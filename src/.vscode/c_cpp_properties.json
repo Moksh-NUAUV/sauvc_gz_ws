@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/moksh/ros2_ws/install/my_robot_interfaces/include/**",
+        "/home/moksh/ros2_ws/install/custom_interfaces/include/**",
+        "/home/moksh/cpp_ws/install/tutorial_interfaces/include/**",
+        "/home/moksh/cpp_ws/install/example_interfaces/include/**",
+        "/home/moksh/control_ws/install/bumperbot_msgs/include/**",
+        "/opt/ros/jazzy/include/**",
+        "/home/moksh/sauvc_gz_ws/src/ags_control/include/**",
+        "/home/moksh/sauvc_gz_ws/src/ags_description/include/**",
+        "/home/moksh/sauvc_gz_ws/src/ags_env/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

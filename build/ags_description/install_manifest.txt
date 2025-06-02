@@ -1,0 +1,15 @@
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ament_index/resource_index/package_run_dependencies/ags_description
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ament_index/resource_index/parent_prefix_path/ags_description
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/ament_prefix_path.sh
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/ament_prefix_path.dsv
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/path.sh
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/path.dsv
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.bash
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.sh
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.zsh
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.dsv
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/package.dsv
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ament_index/resource_index/packages/ags_description
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/cmake/ags_descriptionConfig.cmake
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/cmake/ags_descriptionConfig-version.cmake
+/home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/package.xml
