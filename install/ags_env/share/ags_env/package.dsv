@@ -1,0 +1,8 @@
+source;share/ags_env/hook/cmake_prefix_path.ps1
+source;share/ags_env/hook/cmake_prefix_path.dsv
+source;share/ags_env/hook/cmake_prefix_path.sh
+source;share/ags_env/local_setup.bash
+source;share/ags_env/local_setup.dsv
+source;share/ags_env/local_setup.ps1
+source;share/ags_env/local_setup.sh
+source;share/ags_env/local_setup.zsh

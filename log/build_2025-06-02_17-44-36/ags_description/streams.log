@@ -1,0 +1,42 @@
+[0.037s] Invoking command in '/home/moksh/sauvc_gz_ws/build/ags_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/moksh/sauvc_gz_ws/src/ags_description -DCMAKE_INSTALL_PREFIX=/home/moksh/sauvc_gz_ws/install/ags_description
+[0.141s] -- The C compiler identification is GNU 13.3.0
+[0.241s] -- The CXX compiler identification is GNU 13.3.0
+[0.272s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.472s] -- Detecting C compile features
+[0.473s] -- Detecting C compile features - done
+[0.491s] -- Detecting CXX compiler ABI info
+[0.685s] -- Detecting CXX compiler ABI info - done
+[0.700s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.701s] -- Detecting CXX compile features
+[0.702s] -- Detecting CXX compile features - done
+[0.712s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.029s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.297s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.531s] -- Added test 'lint_cmake' to check CMake code style
+[1.534s] -- Added test 'xmllint' to check XML markup files
+[1.538s] -- Configuring done (1.5s)
+[1.544s] -- Generating done (0.0s)
+[1.546s] -- Build files have been written to: /home/moksh/sauvc_gz_ws/build/ags_description
+[1.554s] Invoked command in '/home/moksh/sauvc_gz_ws/build/ags_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/moksh/sauvc_gz_ws/src/ags_description -DCMAKE_INSTALL_PREFIX=/home/moksh/sauvc_gz_ws/install/ags_description
+[1.556s] Invoking command in '/home/moksh/sauvc_gz_ws/build/ags_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/moksh/sauvc_gz_ws/build/ags_description -- -j12 -l12
+[1.656s] Invoked command in '/home/moksh/sauvc_gz_ws/build/ags_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/moksh/sauvc_gz_ws/build/ags_description -- -j12 -l12
+[1.658s] Invoking command in '/home/moksh/sauvc_gz_ws/build/ags_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/moksh/sauvc_gz_ws/build/ags_description
+[1.673s] -- Install configuration: ""
+[1.673s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ament_index/resource_index/package_run_dependencies/ags_description
+[1.674s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ament_index/resource_index/parent_prefix_path/ags_description
+[1.675s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/ament_prefix_path.sh
+[1.676s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/ament_prefix_path.dsv
+[1.676s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/path.sh
+[1.676s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/environment/path.dsv
+[1.676s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.bash
+[1.677s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.sh
+[1.678s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.zsh
+[1.678s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/local_setup.dsv
+[1.678s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/package.dsv
+[1.678s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ament_index/resource_index/packages/ags_description
+[1.679s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/cmake/ags_descriptionConfig.cmake
+[1.679s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/cmake/ags_descriptionConfig-version.cmake
+[1.680s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_description/share/ags_description/package.xml
+[1.712s] Invoked command in '/home/moksh/sauvc_gz_ws/build/ags_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/moksh/sauvc_gz_ws/build/ags_description

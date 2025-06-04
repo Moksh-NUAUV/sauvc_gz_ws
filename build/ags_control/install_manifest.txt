@@ -1,0 +1,15 @@
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ament_index/resource_index/package_run_dependencies/ags_control
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ament_index/resource_index/parent_prefix_path/ags_control
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/environment/ament_prefix_path.sh
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/environment/ament_prefix_path.dsv
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/environment/path.sh
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/environment/path.dsv
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.bash
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.sh
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.zsh
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.dsv
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/package.dsv
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ament_index/resource_index/packages/ags_control
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/cmake/ags_controlConfig.cmake
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/cmake/ags_controlConfig-version.cmake
+/home/moksh/sauvc_gz_ws/install/ags_control/share/ags_control/package.xml

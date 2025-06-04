@@ -1,0 +1,33 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/moksh/ros2_ws/install/talker_listener/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/actions_py/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/add_integers/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/ard_pub/lib/python3.12/site-packages",
+        "/home/moksh/cpp_ws/install/tutorial_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/cpp_ws/install/example_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/control_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/moksh/control_ws/install/bumperbot_msgs/lib/python3.12/site-packages",
+        "/home/moksh/control_ws/install/bumperbot_control/lib/python3.12/site-packages",
+        "/home/moksh/sauvc25/install/testing/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/moksh/ros2_ws/install/talker_listener/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/actions_py/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/my_robot_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/add_integers/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/custom_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/ros2_ws/install/ard_pub/lib/python3.12/site-packages",
+        "/home/moksh/cpp_ws/install/tutorial_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/cpp_ws/install/example_interfaces/lib/python3.12/site-packages",
+        "/home/moksh/control_ws/install/bumperbot_py_examples/lib/python3.12/site-packages",
+        "/home/moksh/control_ws/install/bumperbot_msgs/lib/python3.12/site-packages",
+        "/home/moksh/control_ws/install/bumperbot_control/lib/python3.12/site-packages",
+        "/home/moksh/sauvc25/install/testing/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "cmake.sourceDirectory": "/home/moksh/sauvc_gz_ws/src/ags_control"
+}
