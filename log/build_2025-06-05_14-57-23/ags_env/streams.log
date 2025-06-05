@@ -1,0 +1,42 @@
+[0.027s] Invoking command in '/home/moksh/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/moksh/sauvc_gz_ws/src/ags_env -DCMAKE_INSTALL_PREFIX=/home/moksh/sauvc_gz_ws/install/ags_env
+[0.161s] -- The C compiler identification is GNU 13.3.0
+[0.295s] -- The CXX compiler identification is GNU 13.3.0
+[0.331s] -- Detecting C compiler ABI info
+[0.513s] -- Detecting C compiler ABI info - done
+[0.528s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.530s] -- Detecting C compile features
+[0.531s] -- Detecting C compile features - done
+[0.550s] -- Detecting CXX compiler ABI info
+[0.750s] -- Detecting CXX compiler ABI info - done
+[0.766s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.766s] -- Detecting CXX compile features
+[0.767s] -- Detecting CXX compile features - done
+[0.783s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.128s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.418s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.664s] -- Added test 'lint_cmake' to check CMake code style
+[1.666s] -- Added test 'xmllint' to check XML markup files
+[1.671s] -- Configuring done (1.6s)
+[1.677s] -- Generating done (0.0s)
+[1.680s] -- Build files have been written to: /home/moksh/sauvc_gz_ws/build/ags_env
+[1.689s] Invoked command in '/home/moksh/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/moksh/sauvc_gz_ws/src/ags_env -DCMAKE_INSTALL_PREFIX=/home/moksh/sauvc_gz_ws/install/ags_env
+[1.691s] Invoking command in '/home/moksh/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/moksh/sauvc_gz_ws/build/ags_env -- -j12 -l12
+[1.796s] Invoked command in '/home/moksh/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/moksh/sauvc_gz_ws/build/ags_env -- -j12 -l12
+[1.798s] Invoking command in '/home/moksh/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/moksh/sauvc_gz_ws/build/ags_env
+[1.818s] -- Install configuration: ""
+[1.818s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ament_index/resource_index/package_run_dependencies/ags_env
+[1.818s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ament_index/resource_index/parent_prefix_path/ags_env
+[1.819s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/ament_prefix_path.sh
+[1.819s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/ament_prefix_path.dsv
+[1.820s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/path.sh
+[1.820s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/environment/path.dsv
+[1.820s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.bash
+[1.821s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.sh
+[1.821s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.zsh
+[1.821s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/local_setup.dsv
+[1.822s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/package.dsv
+[1.822s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ament_index/resource_index/packages/ags_env
+[1.822s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/cmake/ags_envConfig.cmake
+[1.822s] -- Installing: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/cmake/ags_envConfig-version.cmake
+[1.823s] -- Up-to-date: /home/moksh/sauvc_gz_ws/install/ags_env/share/ags_env/package.xml
+[1.889s] Invoked command in '/home/moksh/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/moksh/ros2_ws/install/talker_listener:/home/moksh/ros2_ws/install/actions_py:/home/moksh/ros2_ws/install/add_integers:/home/moksh/ros2_ws/install/ard_pub:/home/moksh/control_ws/install/bumperbot_py_examples:/home/moksh/sauvc25/install/testing:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/moksh/sauvc_gz_ws/build/ags_env
