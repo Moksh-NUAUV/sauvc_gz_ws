@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Sauvc 25">
+  <link
+    name="chassis_link">
+    <inertial>
+      <origin
+        xyz="0.096007 0.10167 0.10982"
+        rpy="0 0 0" />
+      <mass
+        value="6.0362" />
+      <inertia
+        ixx="0.04236"
+        ixy="-2.5021E-09"
+        ixz="-1.3686E-05"
+        iyy="0.18568"
+        iyz="1.879E-05"
+        izz="0.14514" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/chassis_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/chassis_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="hull_link">
+    <inertial>
+      <origin
+        xyz="0.0075921 0.089964 1.0578E-05"
+        rpy="0 0 0" />
+      <mass
+        value="15" />
+      <inertia
+        ixx="0.03422"
+        ixy="-0.0010072"
+        ixz="2.3337E-05"
+        iyy="0.085969"
+        iyz="-2.3338E-05"
+        izz="0.077582" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/hull_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/hull_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="hull_joint"
+    type="fixed">
+    <origin
+      xyz="0.095605167680179 -0.114810636913522 0.0727763991682185"
+      rpy="1.5707963267949 0 0" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="hull_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="t1_link">
+    <inertial>
+      <origin
+        xyz="-4.1153E-07 -0.00055898 -0.0039322"
+        rpy="0 0 0" />
+      <mass
+        value="0.226" />
+      <inertia
+        ixx="0.00013148"
+        ixy="1.6857E-09"
+        ixz="-1.9632E-09"
+        iyy="0.00012745"
+        iyz="-1.4772E-07"
+        izz="0.00018193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t1_joint"
+    type="fixed">
+    <origin
+      xyz="0.349878584893384 0.0539678164692632 0.187776399168219"
+      rpy="1.5707963267949 0 0.785531324064394" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t1_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="t2_link">
+    <inertial>
+      <origin
+        xyz="-4.1146E-07 -0.00055898 -0.0039322"
+        rpy="0 0 0" />
+      <mass
+        value="0.226" />
+      <inertia
+        ixx="0.00013149"
+        ixy="1.6856E-09"
+        ixz="-1.9616E-09"
+        iyy="0.00012745"
+        iyz="-1.4772E-07"
+        izz="0.00018193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t2_joint"
+    type="fixed">
+    <origin
+      xyz="0.349878584893391 -0.283589090296312 0.187776399168219"
+      rpy="1.5707963267949 0 2.3560613295254" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t2_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="t3_link">
+    <inertial>
+      <origin
+        xyz="-4.1146E-07 -0.00055898 -0.0039322"
+        rpy="0 0 0" />
+      <mass
+        value="0.226" />
+      <inertia
+        ixx="0.00013148"
+        ixy="1.6857E-09"
+        ixz="-1.9652E-09"
+        iyy="0.00012745"
+        iyz="-1.4772E-07"
+        izz="0.00018193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t3_joint"
+    type="fixed">
+    <origin
+      xyz="-0.154694276907376 -0.283521901037111 0.187776399168219"
+      rpy="1.5707963267949 0 -2.35632765085928" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t3_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="t4_link">
+    <inertial>
+      <origin
+        xyz="-4.1151E-07 -0.00055898 -0.0039322"
+        rpy="0 0 0" />
+      <mass
+        value="0.226" />
+      <inertia
+        ixx="0.00013148"
+        ixy="1.6856E-09"
+        ixz="-1.9659E-09"
+        iyy="0.00012745"
+        iyz="-1.4772E-07"
+        izz="0.00018193" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t4_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t4_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t4_joint"
+    type="fixed">
+    <origin
+      xyz="-0.154604378302771 0.0540349937575058 0.187776399168219"
+      rpy="1.5707963267949 0 -0.785797645398278" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t4_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link name="t5_link">
+    <inertial>
+      <origin xyz="-4.0893E-07 -0.00055898 -0.0039314" rpy="0 0 0" />
+      <mass value="0.226" />
+      <inertia
+        ixx="0.00013148"
+        ixy="1.9698E-09"
+        ixz="-1.9744E-09"
+        iyy="0.00012745"
+        iyz="-1.4787E-07"
+        izz="0.00018192" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://ags_description/meshes/t5_link.STL" />
+      </geometry>
+      <material name="">
+        <color rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t5_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t5_joint"
+    type="fixed">
+    <origin
+      xyz="0.23263659031711 0.05014009154751 0.097524622545968"
+      rpy="0 0 3.14145949292285" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t5_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="t6_link">
+    <inertial>
+      <origin
+        xyz="-4.0893E-07 -0.00055898 -0.0039314"
+        rpy="0 0 0" />
+      <mass
+        value="0.226" />
+      <inertia
+        ixx="0.00013148"
+        ixy="1.9698E-09"
+        ixz="-1.9714E-09"
+        iyy="0.00012745"
+        iyz="-1.4787E-07"
+        izz="0.00018192" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t6_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t6_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t6_joint"
+    type="fixed">
+    <origin
+      xyz="0.23259264729715 -0.279859905526749 0.0975246225459646"
+      rpy="0 0 -0.000133160666942421" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t6_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="t7_link">
+    <inertial>
+      <origin
+        xyz="-4.089E-07 -0.00055898 -0.0039314"
+        rpy="0 0 0" />
+      <mass
+        value="0.226" />
+      <inertia
+        ixx="0.00013148"
+        ixy="1.9698E-09"
+        ixz="-1.9708E-09"
+        iyy="0.00012745"
+        iyz="-1.4787E-07"
+        izz="0.00018192" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t7_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t7_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t7_joint"
+    type="fixed">
+    <origin
+      xyz="-0.0374073503090634 -0.279823952146783 0.0975246225459653"
+      rpy="0 0 -0.000133160666942421" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t7_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="t8_link">
+    <inertial>
+      <origin
+        xyz="-4.0891E-07 -0.00055898 -0.0039314"
+        rpy="0 0 0" />
+      <mass
+        value="0.226" />
+      <inertia
+        ixx="0.00013148"
+        ixy="1.9698E-09"
+        ixz="-1.9745E-09"
+        iyy="0.00012745"
+        iyz="-1.4787E-07"
+        izz="0.00018192" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t8_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.95686 0.95686 0.95686 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://ags_description/meshes/t8_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="t8_joint"
+    type="fixed">
+    <origin
+      xyz="-0.0373634072891034 0.0501760449274767 0.0975246225459679"
+      rpy="0 0 3.14145949292285" />
+    <parent
+      link="chassis_link" />
+    <child
+      link="t8_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
