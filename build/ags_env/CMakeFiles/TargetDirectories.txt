@@ -1,9 +1,0 @@
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/uninstall.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/ags_env_uninstall.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/test.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/edit_cache.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/rebuild_cache.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/list_install_components.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/install.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/install/local.dir
-/home/moksh/sauvc_gz_ws/build/ags_env/CMakeFiles/install/strip.dir
