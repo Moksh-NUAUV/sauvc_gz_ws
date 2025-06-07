@@ -1,0 +1,339 @@
+[0.354s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.354s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7467920a9af0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7467921c5fa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7467921c5fa0>>, mixin_verb=('build',))
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.476s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.476s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/idea-22392/sauvc_gz_ws'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extensions ['ignore', 'ignore_ament_install']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extension 'ignore'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extension 'ignore_ament_install'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extensions ['colcon_pkg']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extension 'colcon_pkg'
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extensions ['colcon_meta']
+[0.561s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extension 'colcon_meta'
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extensions ['ros']
+[0.562s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_control) by extension 'ros'
+[0.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ags_control' with type 'ros.ament_cmake' and name 'ags_control'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extension 'ignore_ament_install'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extension 'colcon_pkg'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extensions ['colcon_meta']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extension 'colcon_meta'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extensions ['ros']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_description) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ags_description' with type 'ros.ament_cmake' and name 'ags_description'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extension 'ignore_ament_install'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extensions ['colcon_pkg']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_env) by extension 'ros'
+[0.574s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ags_env' with type 'ros.ament_cmake' and name 'ags_env'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'ros'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extensions ['cmake', 'python']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'cmake'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'python'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extensions ['python_setup_py']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'ros'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extensions ['cmake', 'python']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'cmake'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'python'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extensions ['python_setup_py']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool) by extension 'python_setup_py'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'colcon_pkg'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extensions ['colcon_meta']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'colcon_meta'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extensions ['ros']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'ros'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extensions ['cmake', 'python']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'cmake'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'python'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extensions ['python_setup_py']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials) by extension 'python_setup_py'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'ignore_ament_install'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extensions ['colcon_pkg']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'ros'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extensions ['cmake', 'python']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'cmake'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'python'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extensions ['python_setup_py']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/scripts) by extension 'python_setup_py'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'ignore'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'ignore_ament_install'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extensions ['colcon_pkg']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'colcon_pkg'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extensions ['colcon_meta']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'colcon_meta'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extensions ['ros']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/ags_models/sauvc_pool/materials/textures) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.643s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.648s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/idea-22392/sauvc_tna/install
+[0.653s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 347 installed packages in /opt/ros/jazzy
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ags_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'ags_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/idea-22392/sauvc_gz_ws/build/ags_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/idea-22392/sauvc_gz_ws/install/ags_control', 'merge_install': False, 'path': '/home/idea-22392/sauvc_gz_ws/src/ags_control', 'symlink_install': False, 'test_result_base': None}
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ags_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.826s] DEBUG:colcon.colcon_core.verb:Building package 'ags_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/idea-22392/sauvc_gz_ws/build/ags_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/idea-22392/sauvc_gz_ws/install/ags_description', 'merge_install': False, 'path': '/home/idea-22392/sauvc_gz_ws/src/ags_description', 'symlink_install': False, 'test_result_base': None}
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'cmake_target' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'cmake_clean_cache' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'cmake_clean_first' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'cmake_force_configure' from command line to 'False'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'ament_cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'catkin_cmake_args' from command line to 'None'
+[0.827s] Level 5:colcon.colcon_core.verb:set package 'ags_env' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.827s] DEBUG:colcon.colcon_core.verb:Building package 'ags_env' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/idea-22392/sauvc_gz_ws/build/ags_env', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/idea-22392/sauvc_gz_ws/install/ags_env', 'merge_install': False, 'path': '/home/idea-22392/sauvc_gz_ws/src/ags_env', 'symlink_install': False, 'test_result_base': None}
+[0.827s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.829s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/idea-22392/sauvc_gz_ws/src/ags_control' with build type 'ament_cmake'
+[0.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/idea-22392/sauvc_gz_ws/src/ags_control'
+[0.837s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.838s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.838s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.850s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/idea-22392/sauvc_gz_ws/src/ags_description' with build type 'ament_cmake'
+[0.851s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/idea-22392/sauvc_gz_ws/src/ags_description'
+[0.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.862s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/idea-22392/sauvc_gz_ws/src/ags_env' with build type 'ament_cmake'
+[0.863s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/idea-22392/sauvc_gz_ws/src/ags_env'
+[0.863s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idea-22392/sauvc_gz_ws/src/ags_control -DCMAKE_INSTALL_PREFIX=/home/idea-22392/sauvc_gz_ws/install/ags_control
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idea-22392/sauvc_gz_ws/src/ags_description -DCMAKE_INSTALL_PREFIX=/home/idea-22392/sauvc_gz_ws/install/ags_description
+[0.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idea-22392/sauvc_gz_ws/src/ags_env -DCMAKE_INSTALL_PREFIX=/home/idea-22392/sauvc_gz_ws/install/ags_env
+[5.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idea-22392/sauvc_gz_ws/src/ags_env -DCMAKE_INSTALL_PREFIX=/home/idea-22392/sauvc_gz_ws/install/ags_env
+[5.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_env -- -j4 -l4
+[5.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idea-22392/sauvc_gz_ws/src/ags_description -DCMAKE_INSTALL_PREFIX=/home/idea-22392/sauvc_gz_ws/install/ags_description
+[5.434s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_description -- -j4 -l4
+[5.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/idea-22392/sauvc_gz_ws/src/ags_control -DCMAKE_INSTALL_PREFIX=/home/idea-22392/sauvc_gz_ws/install/ags_control
+[5.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_control -- -j4 -l4
+[5.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_env -- -j4 -l4
+[5.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_env
+[5.667s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_description -- -j4 -l4
+[5.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_description
+[5.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ags_env)
+[5.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_env
+[5.764s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env' for CMake module files
+[5.768s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env' for CMake config files
+[5.769s] Level 1:colcon.colcon_core.shell:create_environment_hook('ags_env', 'cmake_prefix_path')
+[5.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/hook/cmake_prefix_path.ps1'
+[5.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/hook/cmake_prefix_path.dsv'
+[5.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/hook/cmake_prefix_path.sh'
+[5.781s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/bin'
+[5.781s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/lib/pkgconfig/ags_env.pc'
+[5.783s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/lib/python3.12/site-packages'
+[5.784s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/bin'
+[5.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.ps1'
+[5.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.dsv'
+[5.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.sh'
+[5.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.bash'
+[5.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.zsh'
+[5.799s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/idea-22392/sauvc_gz_ws/install/ags_env/share/colcon-core/packages/ags_env)
+[5.801s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ags_env)
+[5.802s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env' for CMake module files
+[5.804s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env' for CMake config files
+[5.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('ags_env', 'cmake_prefix_path')
+[5.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/hook/cmake_prefix_path.ps1'
+[5.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/hook/cmake_prefix_path.dsv'
+[5.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/hook/cmake_prefix_path.sh'
+[5.811s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/bin'
+[5.811s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/lib/pkgconfig/ags_env.pc'
+[5.812s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/lib/python3.12/site-packages'
+[5.813s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_env/bin'
+[5.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.ps1'
+[5.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.dsv'
+[5.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.sh'
+[5.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.bash'
+[5.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_env/share/ags_env/package.zsh'
+[5.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/idea-22392/sauvc_gz_ws/install/ags_env/share/colcon-core/packages/ags_env)
+[5.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_control -- -j4 -l4
+[5.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ags_description)
+[5.842s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description' for CMake module files
+[5.848s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description' for CMake config files
+[5.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('ags_description', 'cmake_prefix_path')
+[5.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/hook/cmake_prefix_path.ps1'
+[5.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_control
+[5.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/hook/cmake_prefix_path.dsv'
+[5.857s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_description
+[5.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/hook/cmake_prefix_path.sh'
+[5.862s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/bin'
+[5.863s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/lib/pkgconfig/ags_description.pc'
+[5.864s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/lib/python3.12/site-packages'
+[5.866s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/bin'
+[5.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.ps1'
+[5.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.dsv'
+[5.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.sh'
+[5.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.bash'
+[5.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.zsh'
+[5.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/idea-22392/sauvc_gz_ws/install/ags_description/share/colcon-core/packages/ags_description)
+[5.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ags_description)
+[5.879s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description' for CMake module files
+[5.881s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description' for CMake config files
+[5.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('ags_description', 'cmake_prefix_path')
+[5.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/hook/cmake_prefix_path.ps1'
+[5.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/hook/cmake_prefix_path.dsv'
+[5.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/hook/cmake_prefix_path.sh'
+[5.890s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/bin'
+[5.890s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/lib/pkgconfig/ags_description.pc'
+[5.892s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/lib/python3.12/site-packages'
+[5.893s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_description/bin'
+[5.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.ps1'
+[5.896s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.dsv'
+[5.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.sh'
+[5.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.bash'
+[5.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_description/share/ags_description/package.zsh'
+[5.904s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/idea-22392/sauvc_gz_ws/install/ags_description/share/colcon-core/packages/ags_description)
+[5.910s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ags_control)
+[5.911s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control' for CMake module files
+[5.924s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control' for CMake config files
+[5.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_control
+[5.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('ags_control', 'cmake_prefix_path')
+[5.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/hook/cmake_prefix_path.ps1'
+[5.933s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/hook/cmake_prefix_path.dsv'
+[5.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/hook/cmake_prefix_path.sh'
+[5.937s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/bin'
+[5.938s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/lib/pkgconfig/ags_control.pc'
+[5.939s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/lib/python3.12/site-packages'
+[5.940s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/bin'
+[5.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.ps1'
+[5.943s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.dsv'
+[5.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.sh'
+[5.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.bash'
+[5.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.zsh'
+[5.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/idea-22392/sauvc_gz_ws/install/ags_control/share/colcon-core/packages/ags_control)
+[5.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ags_control)
+[5.957s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control' for CMake module files
+[5.959s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control' for CMake config files
+[5.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('ags_control', 'cmake_prefix_path')
+[5.961s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/hook/cmake_prefix_path.ps1'
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/hook/cmake_prefix_path.dsv'
+[5.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/hook/cmake_prefix_path.sh'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/bin'
+[5.966s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/lib/pkgconfig/ags_control.pc'
+[5.968s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/lib/python3.12/site-packages'
+[5.969s] Level 1:colcon.colcon_core.environment:checking '/home/idea-22392/sauvc_gz_ws/install/ags_control/bin'
+[5.969s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.ps1'
+[5.971s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.dsv'
+[5.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.sh'
+[5.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.bash'
+[5.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.zsh'
+[5.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/idea-22392/sauvc_gz_ws/install/ags_control/share/colcon-core/packages/ags_control)
+[5.979s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.982s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.982s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.009s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.010s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.066s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/idea-22392/sauvc_gz_ws/install/local_setup.ps1'
+[6.071s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/idea-22392/sauvc_gz_ws/install/_local_setup_util_ps1.py'
+[6.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/idea-22392/sauvc_gz_ws/install/setup.ps1'
+[6.081s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/idea-22392/sauvc_gz_ws/install/local_setup.sh'
+[6.084s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/idea-22392/sauvc_gz_ws/install/_local_setup_util_sh.py'
+[6.087s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/idea-22392/sauvc_gz_ws/install/setup.sh'
+[6.092s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/idea-22392/sauvc_gz_ws/install/local_setup.bash'
+[6.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/idea-22392/sauvc_gz_ws/install/setup.bash'
+[6.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/idea-22392/sauvc_gz_ws/install/local_setup.zsh'
+[6.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/idea-22392/sauvc_gz_ws/install/setup.zsh'

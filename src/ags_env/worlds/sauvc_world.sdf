@@ -1,23 +1,41 @@
 <?xml version="1.0"?>
 <sdf version="1.10">
  <world name="sauvc_world">
+
     <physics name="1ms" type="ignored">
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
     </physics>
 
-    <plugin filename="gz-sim-physics-system" name="gz::sim::systems::Physics"/>
-    <plugin filename="gz-sim-user-commands-system" name="gz::sim::systems::UserCommands"/>
-    <plugin filename="gz-sim-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster"/>
-    <plugin filename="gz-sim-buoyancy-system" name="gz::sim::systems::Buoyancy">
-      <!-- <uniform_fluid_density>1000</uniform_fluid_density> -->
-      <graded_buoyancy>
-        <default_density>1000</default_density>
-        <density_change>
-          <above_depth>0</above_depth>
-          <density>1</density>
-        </density_change>
-      </graded_buoyancy>
+    <plugin 
+      filename="gz-sim-physics-system" 
+      name="gz::sim::systems::Physics">
+      </plugin>
+
+    <plugin 
+      filename="gz-sim-user-commands-system" 
+      name="gz::sim::systems::UserCommands">
+      </plugin>
+
+    <plugin 
+      filename="gz-sim-scene-broadcaster-system" 
+      name="gz::sim::systems::SceneBroadcaster">
+      </plugin>
+
+    <plugin 
+      filename="gz-sim-buoyancy-system" 
+      name="gz::sim::systems::Buoyancy">
+      <uniform_fluid_density>1000</uniform_fluid_density>
+      </plugin>
+
+    <plugin 
+      filename="gz-sim-imu-system"
+      name="gz::sim::systems::Imu">
+    </plugin>
+
+    <plugin
+      filename="gz-sim-contact-system"
+      name="gz::sim::systems::Contact">
     </plugin>
 
     <light type="directional" name="sun">
@@ -34,8 +52,42 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
+<<<<<<< HEAD
     <include>
       <uri>model://sauvc_pool</uri>
     </include>    
+=======
+    <model name="floating_box">
+      <pose>0 0 1 0 0 0</pose>
+          <link
+        name="base_link">
+        <inertial>
+          <mass>1.9913</mass>
+          <inertia>
+            <ixx>0.031178</ixx>
+            <ixy>-3.3487E-06</ixy>
+            <ixz>0.0071221</ixz>
+            <iyy>0.073474</iyy>
+            <iyz>-2.1726E-06</iyz>
+            <izz>0.09088</izz>
+          </inertia>
+        </inertial>
+      </link>
+    </model>
+
+    <include>
+      <uri>model://sauvc_pool</uri>
+      <pose>0 0 0 0 0 0</pose>  
+    </include>
+
+    <include>
+      <uri>model://ags</uri>
+      <pose>0 0 0 0 0 0</pose>  
+    </include>
+
+
+
+      
+>>>>>>> edceeb70211d665b1d955862025236bc33351adc
  </world>
 </sdf>
