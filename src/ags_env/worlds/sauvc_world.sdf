@@ -36,50 +36,6 @@
 
     <include>
       <uri>model://sauvc_pool</uri>
-    </include>   
-
-    <model name="floating_box">
-      <pose>0 0 1 0 0 0</pose>
-          <link
-        name="base_link">
-        <inertial>
-          <mass>1.9913</mass>
-          <inertia>
-            <ixx>0.031178</ixx>
-            <ixy>-3.3487E-06</ixy>
-            <ixz>0.0071221</ixz>
-            <iyy>0.073474</iyy>
-            <iyz>-2.1726E-06</iyz>
-            <izz>0.09088</izz>
-          </inertia>
-        </inertial>
-        <visual name="machine_visual">
-          <geometry>
-            <mesh>
-              <uri>
-                file:///home/moksh/body/meshes/base_link.STL
-              </uri>
-            </mesh>
-              
-          </geometry>
-        </visual>
-        <collision name="collison_visual">
-          <geometry>
-          <!-- <mesh>
-            <uri>
-              file:///home/moksh/body/meshes/base_link.STL
-            </uri>
-          </mesh> -->
-          <box>
-            <size>0.5 0.5 0.5</size>
-          </box>
-          </geometry>
-        </collision>
-      </link>
-    </model>
-
-
-
-      
+    </include>    
  </world>
 </sdf>
