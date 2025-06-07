@@ -52,6 +52,11 @@
       <direction>-0.5 0.1 -0.9</direction>
     </light>
 
+<<<<<<< HEAD
+    <include>
+      <uri>model://sauvc_pool</uri>
+    </include>    
+=======
     <model name="floating_box">
       <pose>0 0 1 0 0 0</pose>
           <link
@@ -83,5 +88,6 @@
 
 
       
+>>>>>>> edceeb70211d665b1d955862025236bc33351adc
  </world>
 </sdf>
