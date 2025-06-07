@@ -1,0 +1,20 @@
+[0.022s] Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_control -- -j4 -l4
+[0.124s] Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_control -- -j4 -l4
+[0.125s] Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_control
+[0.137s] -- Install configuration: ""
+[0.137s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ament_index/resource_index/package_run_dependencies/ags_control
+[0.137s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ament_index/resource_index/parent_prefix_path/ags_control
+[0.138s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/environment/ament_prefix_path.sh
+[0.138s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/environment/ament_prefix_path.dsv
+[0.138s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/environment/path.sh
+[0.138s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/environment/path.dsv
+[0.138s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.bash
+[0.139s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.sh
+[0.139s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.zsh
+[0.139s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/local_setup.dsv
+[0.139s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.dsv
+[0.139s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ament_index/resource_index/packages/ags_control
+[0.140s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/cmake/ags_controlConfig.cmake
+[0.140s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/cmake/ags_controlConfig-version.cmake
+[0.140s] -- Up-to-date: /home/idea-22392/sauvc_gz_ws/install/ags_control/share/ags_control/package.xml
+[0.140s] Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_control

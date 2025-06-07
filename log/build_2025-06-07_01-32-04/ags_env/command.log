@@ -1,0 +1,4 @@
+Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_env -- -j4 -l4
+Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/idea-22392/sauvc_gz_ws/build/ags_env -- -j4 -l4
+Invoking command in '/home/idea-22392/sauvc_gz_ws/build/ags_env': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_env
+Invoked command in '/home/idea-22392/sauvc_gz_ws/build/ags_env' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/idea-22392/sauvc_gz_ws/build/ags_env
