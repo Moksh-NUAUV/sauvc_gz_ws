@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<sdf version="1.10">
+  <world name="sauvc_test_world">
+
+    <!-- Include the pool model -->
+    <include>
+      <uri>model://sauvc_pool</uri>
+      <pose>0 0 0 0 0 0</pose>  <!-- Adjust pool position if needed -->
+    </include>
+
+    <!-- Include the AUV model -->
+    <include>
+      <uri>model://ags</uri>
+      <pose>0 0 0 0 0 0</pose>  <!-- Adjust AUV start position inside the pool -->
+    </include>
+
+    <!-- You can add lights, ground plane, etc. here if needed -->
+
+  </world>
+</sdf>
